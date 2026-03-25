@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>MINISTEAM</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">navegacion</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/tienda.html<datalist><option>https://game-plataform.gamer.gd/tienda.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Tienda<datalist><option>link=Tienda</option><option>xpath=//a[contains(text(),'Tienda')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='🎮 MINISTEAM'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Biblioteca'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Tienda']/parent::*</option><option>xpath=//a[contains(@href, 'tienda.html')]</option><option>xpath=//div/a</option><option>css=div.menu > a</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Biblioteca<datalist><option>link=Biblioteca</option><option>xpath=//a[contains(text(),'Biblioteca')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tienda'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='🎮 MINISTEAM'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Salir'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Biblioteca']/parent::*</option><option>xpath=//a[contains(@href, 'biblioteca.html')]</option><option>xpath=//a[2]</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/biblioteca.html<datalist><option>https://game-plataform.gamer.gd/biblioteca.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Tienda<datalist><option>link=Tienda</option><option>xpath=//a[contains(text(),'Tienda')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='🎮 MINISTEAM'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Biblioteca'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Tienda']/parent::*</option><option>xpath=//a[contains(@href, 'tienda.html')]</option><option>xpath=//div/a</option><option>css=div.menu > a</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/tienda.html<datalist><option>https://game-plataform.gamer.gd/tienda.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//body<datalist><option>xpath=//body</option><option>css=body</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//body<datalist><option>xpath=//body</option><option>css=body</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=link-logout<datalist><option>id=link-logout</option><option>link=Salir</option><option>xpath=//a[contains(text(),'Salir')]</option><option>xpath=//a[@id='link-logout']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Biblioteca'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Catálogo de Juegos'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Overwatch'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Salir']/parent::*</option><option>xpath=//a[contains(@href, 'api/srv_logout.php')]</option><option>xpath=//a[4]</option><option>css=#link-logout</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/index.html<datalist><option>https://game-plataform.gamer.gd/index.html</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Iniciar sesion</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/index.html<datalist><option>https://game-plataform.gamer.gd/index.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=link-login<datalist><option>id=link-login</option><option>link=Login</option><option>xpath=//a[contains(text(),'Login')]</option><option>xpath=//a[@id='link-login']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Biblioteca'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tienda'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Registro'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Salir'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Login']/parent::*</option><option>xpath=//a[contains(@href, 'login.html')]</option><option>xpath=//a[3]</option><option>css=#link-login</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/login.html<datalist><option>https://game-plataform.gamer.gd/login.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=correo<datalist><option>id=correo</option><option>xpath=//input[@id='correo']</option><option>xpath=//form[@id='formLogin']/input</option><option>xpath=//input</option><option>css=#correo</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=correo<datalist><option>id=correo</option><option>xpath=//input[@id='correo']</option><option>xpath=//form[@id='formLogin']/input</option><option>xpath=//input</option><option>css=#correo</option></datalist></td><td>LoboMX831</td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='formLogin']/input[2]</option><option>xpath=//input[2]</option><option>css=#password</option></datalist></td><td>123456789</td></tr>
+<tr><td>type</td><td>id=correo<datalist><option>id=correo</option><option>xpath=//input[@id='correo']</option><option>xpath=//form[@id='formLogin']/input</option><option>xpath=//input</option><option>css=#correo</option></datalist></td><td>LoboMX831@gmail.com</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='formLogin']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Iniciar Sesión'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='🎮 MINISTEAM'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Entrar']/parent::*</option><option>xpath=//button</option><option>css=button.btn-steam</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/tienda.html<datalist><option>https://game-plataform.gamer.gd/tienda.html</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Registrar</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/index.html<datalist><option>https://game-plataform.gamer.gd/index.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=link-registro<datalist><option>id=link-registro</option><option>link=Registro</option><option>xpath=//a[contains(text(),'Registro')]</option><option>xpath=//a[@id='link-registro']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Biblioteca'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Salir'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='BIENVENIDO A MINISTEAM'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Registro']/parent::*</option><option>xpath=//a[contains(@href, 'registro.html')]</option><option>xpath=//a[4]</option><option>css=#link-registro</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/registro.html<datalist><option>https://game-plataform.gamer.gd/registro.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=nombre<datalist><option>id=nombre</option><option>xpath=//input[@id='nombre']</option><option>xpath=//form[@id='formRegistro']/input</option><option>xpath=//input</option><option>css=#nombre</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=nombre<datalist><option>id=nombre</option><option>xpath=//input[@id='nombre']</option><option>xpath=//form[@id='formRegistro']/input</option><option>xpath=//input</option><option>css=#nombre</option></datalist></td><td>Luis Angel</td></tr>
+<tr><td>click</td><td>id=correo<datalist><option>id=correo</option><option>xpath=//input[@id='correo']</option><option>xpath=//form[@id='formRegistro']/input[2]</option><option>xpath=//input[2]</option><option>css=#correo</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=correo<datalist><option>id=correo</option><option>xpath=//input[@id='correo']</option><option>xpath=//form[@id='formRegistro']/input[2]</option><option>xpath=//input[2]</option><option>css=#correo</option></datalist></td><td>LoboMX831</td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='formRegistro']/input[3]</option><option>xpath=//input[3]</option><option>css=#password</option></datalist></td><td>123456789</td></tr>
+<tr><td>type</td><td>id=correo<datalist><option>id=correo</option><option>xpath=//input[@id='correo']</option><option>xpath=//form[@id='formRegistro']/input[2]</option><option>xpath=//input[2]</option><option>css=#correo</option></datalist></td><td>angelvelasco831@gmail.com</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='formRegistro']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Crear Cuenta'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='🎮 MINISTEAM'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Registrarse']/parent::*</option><option>xpath=//button</option><option>css=button.btn-steam</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/login.html<datalist><option>https://game-plataform.gamer.gd/login.html</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Cerrar sesion</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/tienda.html<datalist><option>https://game-plataform.gamer.gd/tienda.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//nav<datalist><option>xpath=//nav</option><option>css=nav.navbar</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=🎮 MINISTEAM<datalist><option>link=🎮 MINISTEAM</option><option>xpath=//a[contains(text(),'🎮 MINISTEAM')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tienda'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Biblioteca'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='🎮 MINISTEAM']/parent::*</option><option>xpath=//a[contains(@href, 'index.html')]</option><option>xpath=//a</option><option>css=a.logo</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://game-plataform.gamer.gd/index.html<datalist><option>https://game-plataform.gamer.gd/index.html</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=link-logout<datalist><option>id=link-logout</option><option>link=Salir</option><option>xpath=//a[contains(text(),'Salir')]</option><option>xpath=//a[@id='link-logout']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Registro'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='BIENVENIDO A MINISTEAM'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Salir']/parent::*</option><option>xpath=//a[contains(@href, 'api/srv_logout.php')]</option><option>xpath=//a[5]</option><option>css=#link-logout</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
